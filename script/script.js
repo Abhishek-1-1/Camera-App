@@ -20,7 +20,7 @@ let chunks = [];
 let filter = ""; 
 
 galleryBtn.addEventListener("click", function(){
-    location.assign("/html/gallery.html");
+    location.assign("./html/gallery.html");
 })
 
 for(let i=0; i<filters.length; i++){
